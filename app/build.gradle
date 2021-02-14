@@ -17,11 +17,6 @@ android {
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
-        javaCompileOptions {
-            annotationProcessorOptions {
-                arguments = ["room.incremental": "true", "room.schemaLocation": "$projectDir/schemas".toString()]
-            }
-        }
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
